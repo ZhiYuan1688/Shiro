@@ -11,7 +11,7 @@ export const Root: Component = ({ children }) => {
       <Header />
       <Content>{children}</Content>
 
-      <Footer />
+{/*       <Footer /> */}
       <ClientOnly>
         <FABContainer />
       </ClientOnly>
